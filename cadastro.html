@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro</h1>
+        <form id="cadastroForm">
+            <label for="newUsername">Usuário:</label>
+            <input type="text" id="newUsername" required>
+            <label for="newPassword"><br>Senha:</label>
+            <input type="password" id="newPassword" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p>Já tem uma conta? <a href="index.html">Faça login</a></p>
+        <p id="registerMessagem" class="hidden"></p>
+    </div>
+    <img src="imagens/Filing system-amico.png" alt="imagem login" width="400" height="400">
+    <script src="script.js"></script>
+</body>
+</html>
