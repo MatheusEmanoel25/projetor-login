@@ -36,13 +36,8 @@ document.getElementById('cadastroForm')?.addEventListener('submit', function(eve
         location.href = 'login.html'; 
     }
 });
-
+// home 
 
 document.getElementById('loginForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Previne o comportamento padrão de envio do formulário
-
-    // Aqui você pode adicionar validação ou lógica de autenticação
-
-    // Redireciona para outra página após o login bem-sucedido
-    window.location.href = 'home.html'; // Substitua 'home.html' pelo URL da página para a qual você deseja redirecionar
-});
+    event.preventDefault(); 
+  window.location.href = 'home.html'; }

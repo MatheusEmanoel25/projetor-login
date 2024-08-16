@@ -9,10 +9,44 @@ body {
     
 }
 
+.b{
+background-color: #8122B0;
+color: black;
+padding:  5px 8px;
+border:  1px solid #8122B0;
+border-radius: 4px;
+cursor: pointer;
+font-size: 15px;
+
+}
+
+.b:hover {
+    background-color: black;
+    color: #8122B0;
+
+}
+
+a{
+    background-color: #8122B0;
+    color: black;
+    padding:  5px 8px;
+    border:  1px solid #8122B0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    
+    }
+    
+    a:hover {
+        background-color: black;
+        color: #8122B0;
+    
+    }
+
 .container {
     width: 300px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 5px solid #ccc;
     border-radius: 8px;
     text-align: center;
 }
